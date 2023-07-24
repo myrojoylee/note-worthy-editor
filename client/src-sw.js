@@ -30,7 +30,7 @@ registerRoute(({ request }) => request.mode === "navigate", pageCache);
 // registerRoute();
 registerRoute(
   ({ request }) => {
-    console.log(request);
+    // console.log(request);
     return (
       // CSS
       request.destination === "style" ||
