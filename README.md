@@ -1,30 +1,31 @@
-# note-worthy-editor
+# Note-Worthy-Editor
 
-## follow my progress below!
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-GIVEN a text editor web application
+## Description:
 
-- [ ] WHEN I open my application in my editor
-- [x] THEN I should see a client server folder structure
-- [ ] WHEN I run `npm run start` from the root directory
-- [ ] THEN I find that my application should start up the backend and serve the client
-- [ ] WHEN I run the text editor application from my terminal
-- [ ] THEN I find that my JavaScript files have been bundled using webpack
-- [ ] WHEN I run my webpack plugins
-- [ ] THEN I find that I have a generated HTML file, service worker, and a manifest file
-- [ ] WHEN I use next-gen JavaScript in my application
-- [ ] THEN I find that the text editor still functions in the browser without errors
-- [ ] WHEN I open the text editor
-- [ ] THEN I find that IndexedDB has immediately created a database storage
-- [ ] WHEN I enter content and subsequently click off of the DOM window
-- [ ] THEN I find that the content in the text editor has been saved with IndexedDB
-- [ ] WHEN I reopen the text editor after closing it
-- [ ] THEN I find that the content in the text editor has been retrieved from our IndexedDB
-- [ ] WHEN I click on the Install button
-- [ ] THEN I download my web application as an icon on my desktop
-- [x] WHEN I load my web application
-- [x] THEN I should have a registered service worker using workbox
-- [x] WHEN I register a service worker
-- [x] THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-- [ ] WHEN I deploy to Heroku
-- [ ] THEN I should have proper build scripts for a webpack application
+A progressive web application (PWA) is a software application built on traditional web technologies (HTML, CSS, JS) that is made to work on multiple platforms. In this work we completed code needed to create a manifest file and register a service worker in order to optimize offline access. Additionally, a feature of a PWA is its ability to be installed into the user's device. We will be able to see this functionality in a brief [demo](#usage) below.
+
+## Installation:
+
+- This is a [Node.js](https://nodejs.org/en) application. It is recommended to use at least v16 (up to v18) for this app to run correctly.
+
+Please type the following in the terminal of your project's root directory to begin:
+
+- `npm install` to install all needed dependencies
+
+- `npm run start` to run the current build and start the server.
+
+## Usage:
+
+- Find the deployed application [here](https://note-worthy-editor-994ec6cf6337.herokuapp.com/).
+
+The short demo below demonstrates the basic functionality of the JATE app.
+
+## Sources/Credits:
+
+- Information about workbox-recipes was sourced from [Chrome Developers](https://developer.chrome.com/docs/workbox/modules/workbox-recipes/).
+
+## License:
+
+- Refer to the license in the repository.
