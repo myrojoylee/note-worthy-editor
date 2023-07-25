@@ -1,7 +1,11 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "note taking app",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
