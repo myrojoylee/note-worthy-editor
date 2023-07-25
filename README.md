@@ -8,7 +8,7 @@ A progressive web application (PWA) is a software application built on tradition
 
 ## Installation:
 
-- This is a [Node.js](https://nodejs.org/en) application. It is recommended to use at least v16 (up to v18) for this app to run correctly.
+- This is a [Node.js](https://nodejs.org/en) application. This app should be able to run on v18+.
 
 Please type the following in the terminal of your project's root directory to begin:
 
