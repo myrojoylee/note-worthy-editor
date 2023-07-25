@@ -22,6 +22,8 @@ Please type the following in the terminal of your project's root directory to be
 
 The short demo below demonstrates the basic functionality of the JATE app.
 
+https://github.com/myrojoylee/note-worthy-editor/assets/120980593/9d3af1bb-75d6-472c-b6a8-4b9ac4e0b47a
+
 ## Sources/Credits:
 
 - Information about workbox-recipes was sourced from [Chrome Developers](https://developer.chrome.com/docs/workbox/modules/workbox-recipes/).
